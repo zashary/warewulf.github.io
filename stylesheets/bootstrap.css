@@ -10,7 +10,8 @@ html {
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin: 10%;
+    padding-top: 70px;
+    margin: 10%;
 }
 article,
 aside,
@@ -42,6 +43,8 @@ audio:not([controls]) {
 template {
   display: none;
 }
+    background-color: red;
+    transition: background-color 2s ease-out;
 a {
   background-color: transparent;
 }
@@ -97,6 +100,9 @@ hr {
   -webkit-box-sizing: content-box;
      -moz-box-sizing: content-box;
           box-sizing: content-box;
+}
+p {
+    
 }
 pre {
   overflow: auto;
@@ -4500,8 +4506,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   background-color: #28648a;
+  opacity: .80;
   border-color: #28648a;
-  width: 100%;
+  width: 80%;
   position: absolute;
   padding-left: 20%;
 }
@@ -6782,5 +6789,8 @@ button.close {
     
     font-size: 20px;
     color: #af1600;
+}
+#something {
+    padding-top: 6%;
 }
 /*# sourceMappingURL=bootstrap.css.map */

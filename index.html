@@ -27,10 +27,10 @@
         function load_content(page) {
 
             location.hash = page;
-            $("#container").load("content/" + page + ".html", "", 
+            $("#something").load("content/" + page + ".html", "", 
                 function (responseText, textStatus, req) {
                     if ( textStatus == "error" ) {
-                        $("#container").html("<h2>ERROR</h2>Unable to load content: " + page);
+                        $("#something").html("<h2>ERROR</h2>Unable to load content: " + page);
                     }
                 });
         }
@@ -61,9 +61,8 @@
     <body>
     <header>
         <div class="name"><span class="ware">Ware</span><span class="wulf">Wulf</span></div>
-        <div class="wrapper">
+        <div class="container pull-left">
         <nav class="navbar navbar-default">
-        <div class="container">
             <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle Navigation</span>
@@ -82,13 +81,14 @@
     </div>
     </div>
     </div>
+    </div>
     </header>
 <!---
     <img id="logo" src="images/warewulf_logo_300x300.png"/>
 -->
 
 
-<div id="container">
+<div id="something" class="pull-left">
       
       Loading ...
 
