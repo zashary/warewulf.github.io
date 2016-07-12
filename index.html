@@ -7,7 +7,7 @@
     <title>Warewulf</title>
 
     <script type="text/javascript" src="jquery-1.12.4.min.js"></script>
-    <link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="stylesheets/bootstrap.css">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -59,17 +59,33 @@
 
     </head>
     <body>
-    <div class="navbar">
-    <span id="navtext">Warewulf: </span>
-        <ul>
+    <header>
+        <div class="name"><span class="ware">Ware</span><span class="wulf">Wulf</span></div>
+        <div class="wrapper">
+        <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle Navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
             <li><a href="javascript:load_content('home')">Home</a></li>
             <li><a href="javascript:load_content('status')">Status</a></li>
+            <li><a href="javascript:load_content('Lorem')">Lorem</a></li>
+            <li><a href="javascript:load_content('Ipsum')">Ipsum</a></li>
+            
         </ul>
     </div>
-
-
+    </div>
+    </div>
+    </header>
+<!---
     <img id="logo" src="images/warewulf_logo_300x300.png"/>
-
+-->
 
 
 <div id="container">
