@@ -6775,15 +6775,15 @@ button.close {
     display: none !important;
   }
 }
-.body {
-    margin: 2%;
+header {
+    background-color: #af1600;
 }
 .wrapper{
     width: 100%;
 }
 .name{
     position: right;
-
+    padding: 1%;
 }
 .ware {
     margin: 0;
@@ -6815,10 +6815,13 @@ button.close {
     height:1000px;
     width: 100%;
 }
+.col-md-12 {
+    background-color: #af1600;
+}
 #page2 {
 
 }
-
 #something {
+    padding: 1%;
 }
 /*# sourceMappingURL=bootstrap.css.map */
