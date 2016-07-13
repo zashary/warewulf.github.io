@@ -4504,7 +4504,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #af1600;
+  background-color: #af1600; 
   /*
   opacity: .80;
   */
@@ -6778,6 +6778,9 @@ button.close {
 .body {
     padding-top: 70px;
     margin: 5%;
+}
+.wrapper{
+    width: 100%;
 }
 .name{
     position: right;
