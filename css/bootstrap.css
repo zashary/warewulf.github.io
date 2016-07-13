@@ -6801,7 +6801,7 @@ header {
     font-size: 25px;
 }
 .footer {
-   position: absolute;
+   float:clear;
    bottom: 7%;
    width: 80%;
    height: 60px;  
