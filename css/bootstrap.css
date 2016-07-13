@@ -6798,6 +6798,7 @@ header {
 }
 .icon {
     color: #af1600;
+    font-size: 25px;
 }
 .footer {
    position: absolute;
