@@ -101,7 +101,7 @@ hr {
           box-sizing: content-box;
 }
 p {
-    
+  padding-top: 5px;  
 }
 pre {
   overflow: auto;
@@ -6816,7 +6816,11 @@ header {
     width: 100%;
 }
 .col-md-12 {
-    background-color: #af1600;
+    height: 200px;
+}
+.section0 {
+    background: #af1600;
+    color: white;
 }
 #page2 {
 
