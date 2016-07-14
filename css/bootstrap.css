@@ -6781,19 +6781,22 @@ header {
 .wrapper{
     width: 100%;
 }
-.name{
+.brandName{
     position: right;
     padding: 1%;
+    font-size: 20px;
+}
+.blurb {
+    font-size: 10px !important;
 }
 .ware {
     margin: 0;
-    font-size: 20px;
 }
 .wulf {
   background: -webkit-linear-gradient(#af1600, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;    
-    font-size: 20px;
+q
     color: #af1600;
 }
 .icon {
