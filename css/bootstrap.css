@@ -6793,10 +6793,11 @@ header {
     margin: 0;
 }
 .wulf {
+/*
   background: -webkit-linear-gradient(#af1600, #333);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;    
-q
+*/
     color: #af1600;
 }
 .icon {
@@ -6804,37 +6805,22 @@ q
     font-size: 25px;
 }
 .footer {
-   float:clear;
-   bottom: 7%;
-   width: 80%;
    height: 60px;  
-}
-#page0 {
-    background-color: white;
-    height: 1000px;
-    width: 100%;
-}
-#page1 {
-    background-color: #af1600;
-    height:1000px;
-    width: 100%;
 }
 .col-md-12 {
     height: 350px;
 }
 .section0 {
-    background: #333;
+    background: rgba(51, 51, 51, .15);
     color: white;
+    text-shadow: 2px 2px 2px black;
 }
 .section1 {
 
 }
 .section2{
-    background: #ffc61a;
-    color: black;
-}
-#page2 {
-
+    background: rgba(51, 51, 51, 1);
+    color: white;
 }
 #something {
     padding: 1%;
