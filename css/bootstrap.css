@@ -1103,13 +1103,14 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #af1600;
+  font-weight: bold;
   text-decoration: none;
 }
 a:hover,
 a:focus {
-  color: #23527c;
-  text-decoration: underline;
+/*please edit me*/
+  color: #af1600;
 }
 a:focus {
   outline: thin dotted;
@@ -6782,9 +6783,7 @@ header {
     width: 100%;
 }
 .brandName{
-    position: right;
-    padding: 1%;
-    font-size: 20px;
+    font-size: 40px;
 }
 .blurb {
     font-size: 10px !important;
@@ -6818,11 +6817,28 @@ header {
 .section1 {
 
 }
-.section2{
+.section2 {
     background: rgba(51, 51, 51, 1);
     color: white;
 }
+.navbar-brand-timage {
+    display: inline-block;
+    float: left;
+}
+.navbar-brand-name > img {
+    display: inline-block;
+    float: left;
+    padding: 0 15px 0 0;
+}
+.wolf {
+    height: 300px;
+    width: 300px;
+}
 #something {
     padding: 1%;
+}
+#paw{
+    height: 40px;
+    width: 40px;
 }
 /*# sourceMappingURL=bootstrap.css.map */
