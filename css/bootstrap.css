@@ -1103,14 +1103,14 @@ textarea {
   line-height: inherit;
 }
 a {
-  color: #af1600;
+  color:  #330099;
   font-weight: bold;
   text-decoration: none;
 }
 a:hover,
 a:focus {
 /*please edit me*/
-  color: #af1600;
+  color: #330099;
 }
 a:focus {
   outline: thin dotted;
@@ -4505,7 +4505,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   }
 }
 .navbar-default {
-  background-color: #af1600; 
+  background-color:  #330099; 
   /*
   opacity: .80;
   */
@@ -4541,7 +4541,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #fbf9f9;
-  background-color: #af1600;
+  background-color: # #330099;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4550,11 +4550,11 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   background-color: transparent;
 }
 .navbar-default .navbar-toggle {
-  border-color: #af1600;
+  border-color:  #330099;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #af1600;
+  background-color:  #330099;
 }
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #fbf9f9;
@@ -4567,7 +4567,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
   color: #fbf9f9;
-  background-color: #af1600;
+  background-color:  #330099;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
@@ -4582,7 +4582,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fbf9f9;
-    background-color: #af1600;
+    background-color:  #330099;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
@@ -6777,7 +6777,7 @@ button.close {
   }
 }
 header {
-    background-color: #af1600;
+    background-color:  #330099;
 }
 .wrapper{
     width: 100%;
@@ -6797,10 +6797,10 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;    
 */
-    color: #af1600;
+    color:  #330099;
 }
 .icon {
-    color: #af1600;
+    color:  #330099;
     font-size: 25px;
 }
 .footer {

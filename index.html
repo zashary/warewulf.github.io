@@ -64,11 +64,12 @@
 
     <body>
     <header>
-        <div class="wrapper">
 <!--
         <div class="brandName"><span class="ware">Ware</span><span class="wulf">Wulf</span> <span class="blurb">Scalable, Modular, Adaptable Systems Management</span></div>
 -->
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+        <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle Navigation</span>
             <span class="icon-bar"></span>
@@ -80,9 +81,10 @@
             
             <img id="paw" src="paw-black.png">
             Warewulf
-            </div>
+            </div> <!--navbar-brand-timage"-->
         </a>
-        <div id="navbar" class="collapse navbar-collapse" id="navbar">
+        </div> <!--navbar-header-->
+        <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
             <li><a href="javascript:load_content('home')">Home</a></li>
             <li><a href="javascript:load_content('status')">Status</a></li>
@@ -91,8 +93,8 @@
             
         </ul>
         </div> <!--collapse navbar-collapse-->
+        </div> <!--container-fluid-->
         <nav>
-        </div> <!--wrapper pull-left-->
     </header>
 <!---
     <img id="logo" src="images/warewulf_logo_300x300.png"/>
