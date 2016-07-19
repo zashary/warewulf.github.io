@@ -6786,9 +6786,6 @@ header {
 .brandName{
     font-size: 40px;
 }
-.blurb {
-    font-size: 10px !important;
-}
 .ware {
     margin: 0;
 }
@@ -6810,6 +6807,11 @@ header {
 .col-md-12 {
     height: 350px;
 }
+.col-md-6 {
+    padding-top: 5%;
+    height: 350px;
+    background: rgba(51, 51, 51, .30);
+}
 .section0 {
     background: rgba(51, 51, 51, .15);
     color: black;
@@ -6824,10 +6826,8 @@ header {
     background: rgba(51, 51, 51, 1);
     color: white;
 }
-.navbar-brand-name > img {
-    display: inline-block;
-    float: left;
-    padding: 0 15px 0 0;
+.col0 {
+    color: #330099;
 }
 .wolf {
     height: 300px;
