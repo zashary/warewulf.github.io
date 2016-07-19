@@ -6810,11 +6810,8 @@ header {
 .col-md-6 {
     padding-top: 5%;
     height: 350px;
-    background: rgba(51, 51, 51, .30);
 }
 .section0 {
-    background: rgba(51, 51, 51, .15);
-    color: black;
 /*
     text-shadow: 2px 2px 2px black;
 */
@@ -6827,7 +6824,12 @@ header {
     color: white;
 }
 .col0 {
+    background: rgba(51, 51, 51, .30);
     color: #330099;
+}
+.col1 {
+    background: rgba(51, 51, 51, .15);
+
 }
 .wolf {
     height: 300px;
